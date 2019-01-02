@@ -1,7 +1,8 @@
-let today = new Date()
-let hourNow = today.getHours();
+let today = new Date();//Create a new date object
+let hourNow = today.getHours(); //Find the current hour
 let greeting;
 
+// Display the appropriate greeting based on the current time.
 if (hourNow > 18) {
   greeting = 'Good evening!';
 } else if (hourNow > 12) {
